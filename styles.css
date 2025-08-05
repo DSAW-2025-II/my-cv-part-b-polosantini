@@ -1,0 +1,154 @@
+/*Estilización en CSS*/
+
+/*Declaración de las fuentes a usarse*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*Definir el tamaño del HTML y de las imágenes*/
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Estilización del banner de arriba*/
+.banner-arriba {
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+
+
+    background-image: url('images/foto-header.jpg');
+    background-size: cover;
+}
+
+.banner-arriba h1 {
+    position: absolute;
+    font-family: Google Sans Code, sans-serif;
+    top: 40%;
+    left: 40%;
+    color: white; 
+    font-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+/*Estilización del divisor principal*/
+.divisor-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+/*Estilización de la sección de la izquierda*/
+.columna-izquierda{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+
+    color: #cfd3de;
+    background-color: hsl(17, 22.9%, 30%);
+    box-shadow: 0px -15px 8px rgba(0, 0, 0, 0.2);
+}
+
+.columna-izquierda p {
+    color: #cfd3de;
+}
+
+/*Estilización de la sección de la derecha*/
+.columna-derecha {
+    flex: 1;
+    background-color: hsl(36, 19.2%, 89.8%);
+
+    box-shadow: 0px -15px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*Estilización de las subsecciones en la columna derecha*/
+.educacion, .experiencia, .habilidades, .intereses-hobbies {
+    padding: 3%;
+}
+
+/*Estilización de la sección de educación*/
+.educacion {
+    box-shadow: -5px 0  rgba(234, 230, 224, 0.2);
+}
+
+.educacion h2, p {
+    color: black;
+}
+
+/*Estilización de la sección de experiencia*/
+.experiencia {
+    background-color: #dfccc1;
+    box-shadow: -5px 0  rgba(223, 204, 193, 0.2);
+}
+
+.experiencia h2, .experiencia p {
+    color: #2f2c29;
+}
+
+/*Estilización de la sección de habilidades*/
+.habilidades {
+    background-color: #91756b;
+    box-shadow: -5px 0 rgba(145, 117, 107, 0.2);
+}
+
+.habilidades h2, .habilidades ul {
+    color: #cfd3de;
+}
+
+/*Estilización de la sección de intereses y hobbies*/
+.intereses-hobbies {
+    background-color: #2f2c29;
+    box-shadow: -5px 0 rgba(47, 44, 41, 0.2);
+}
+
+.intereses-hobbies h2 {
+    color: white;
+}
+
+/*Estilizacion de las secciones de intereses y hobbies*/
+.intereses, .hobbies {
+    background-color: #cfd3de;
+}
+
+.intereses h3, .intereses ul, .hobbies h3, .hobbies ul {
+    color: #2f2c29;
+}
+
+/*Estilización del divisor de las experiencias voluntarias*/
+.titulo-voluntario {
+    text-align: center;
+    padding: 5%;
+    font-size: 150%;
+
+    background-color: #d4a017;
+}
+
+
+.columna-lighthouse {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    
+    background-color: #264e7e;
+}
+
+.columna-worship {
+    flex: 1;
+    width: 50%;
+    padding: 20px;
+
+}
+
+
+/*Estilización de textos*/
+* {
+    font-family: 'Google Sans Code', sans-serif;
+
+}

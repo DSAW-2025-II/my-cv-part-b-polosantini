@@ -1,4 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Sx8Ozf2d)
+# Martín Polo Santini - 335656
+
+[Link](https://dsaw-2025-ii.github.io/my-cv-part-b-polosantini/) para ver la página desplegada en GitHub Pages
+
+## Juego de Fluke completado:
+<img width="1598" height="758" alt="image" src="https://github.com/user-attachments/assets/c8298a89-53f3-40f8-85db-afc0a6fe0c41" />
+
 # Bienvenidos a la Tarea de HTML y CSS
 
 ¡Hola a todos!

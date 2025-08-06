@@ -111,13 +111,20 @@ img {
     color: white;
 }
 
-/*Estilizacion de las secciones de intereses y hobbies*/
-.intereses, .hobbies {
+/*Estilización de la tabla de intereses*/
+.intereses-hobbies-tabla {
     background-color: #cfd3de;
 }
 
-.intereses h3, .intereses ul, .hobbies h3, .hobbies ul {
-    color: #2f2c29;
+.intereses-hobbies-tabla table {
+    width: 100%;
+}
+
+.intereses-hobbies-tabla th, .intereses-hobbies-tabla td {
+    padding: 2%;
+    text-align: center;
+
+    border: 1px solid #2f2c29;
 }
 
 /*Estilización del divisor de las experiencias voluntarias*/
@@ -129,6 +136,10 @@ img {
     background-color: #d4a017;
 }
 
+.titulo-voluntario h2 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
 
 .columna-lighthouse {
     display: flex;
@@ -139,14 +150,42 @@ img {
     background-color: #264e7e;
 }
 
+.columna-lighthouse h3, .columna-lighthouse p, .columna-lighthouse ul {
+    color: white;
+    font-size: 130%;
+}
+
 .columna-worship {
     flex: 1;
     width: 50%;
     padding: 20px;
 
+    background-color: #414141;
 }
 
+.columna-worship h3, .columna-worship p {
+    color: white;
+    font-size: 130%;
+}
 
+/*Estilización del footer*/
+.piso {
+    background-color: #2f2c29;
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+    width: 100%;
+
+    box-shadow: 0px -15px 8px rgba(0, 0, 0, 0);
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #cfd3de;
+}
 /*Estilización de textos*/
 * {
     font-family: 'Google Sans Code', sans-serif;
